@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/ico-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h2>Calculadora Operações</h2>
+    </header>
+    <main>
+        <section class="form_calc">
+            <section class="base">
+                <div class="elementos">
+                    <div class="campo">
+                        <label for="valA">Valor</label>
+                        <input type="text" name="valA" id="valA" placeholder="Informe o Primeiro Valor">
+                    </div>
+                    <div class="campo">
+                        <label for="valB">Valor</label>
+                        <input type="text" name="valB" id="valB" placeholder="Informe o Segundo Valor">
+                    </div>
+                    <div class="resp" id="resposta">
+                        <p>
+                            Informe os valores e selecione a operação  para <br> ver o resultado!
+                        </p>
+                    </div>
+                </div>
+                <div class="seletor">
+                    <div class="operacao" id="opSoma">Soma</div>
+                    <div class="operacao" id="opSub">Subtração</div>
+                    <div class="operacao" id="opMult">Multiplicação</div>
+                    <div class="operacao" id="opDiv">Divisao</div>
+                </div>
+                <script src="js/script.js"></script>
+            </section>
+        </section>
+    </main>
+
+</body>
+</html>

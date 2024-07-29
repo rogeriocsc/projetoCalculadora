@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #89D99D;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #347355;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    margin: 20px 5px;
+}
+
+.form_calc {
+    max-width: 900px;
+    height: 420px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+.base {
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 0.2em;
+	color: #191970;
+	font-size: 1em;
+}
+
+.campo input[type="text"] {
+	padding: 0.5em;
+	border: 2px solid #191970;
+    border-radius: 10px;
+    outline: none;
+} 
+
+.campo input:focus {
+	background: #dcdcf3;
+
+}
+
+.resp {
+    margin: 20px 5px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    color: #191970;
+}
+
+.seletor {
+    margin: 30px;
+    padding: 10px;
+}
+
+.operacao {
+    padding: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.selecionado {
+    background-color: rgb(141, 1, 1) !important;
+    border-color: rgb(243, 1, 1) !important;
+    font-weight: bold;
+}
